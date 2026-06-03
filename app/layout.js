@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${sora.variable} ${inter.variable}`}>
       <body>
         {children}
-        <AgentationWrapper />
+        {/* <AgentationWrapper /> */}
       </body>
     </html>
   );
