@@ -1,5 +1,6 @@
 import { Sora, Inter } from "next/font/google";
 import "./globals.css";
+import AgentationWrapper from "./AgentationWrapper";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${sora.variable} ${inter.variable}`}>
       <body>
         {children}
+        <AgentationWrapper />
       </body>
     </html>
   );
