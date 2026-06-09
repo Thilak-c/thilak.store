@@ -610,9 +610,9 @@ export default function Home() {
                 </div>
                 <h3>WhatsApp channel</h3>
                 <p>Join Bihar's top gaming feed. We post daily account drops, budget deals, and event announcements.</p>
-                <div className="connect-metric">600+ Active Members</div>
+                <div className="connect-metric">700+ Active Members</div>
                 <a 
-                  href="https://whatsapp.com/channel/0029VbC7F4j4dTnEvTrn8c42/1126"
+                  href="https://whatsapp.com/channel/0029Vb7mj918qIzzuWZLDc3T"
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn-outline-dark mt-4 text-center justify-center btn-chan"
