@@ -612,7 +612,7 @@ export default function Home() {
                 <p>Join Bihar's top gaming feed. We post daily account drops, budget deals, and event announcements.</p>
                 <div className="connect-metric">600+ Active Members</div>
                 <a 
-                  href="https://whatsapp.com/channel/0029Vb7mj918qIzzuWZLDc3T"
+                  href="https://whatsapp.com/channel/0029VbC7F4j4dTnEvTrn8c42/1126"
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn-outline-dark mt-4 text-center justify-center btn-chan"
@@ -655,44 +655,30 @@ export default function Home() {
                 <span className="label-line"></span>
                 Events & Tournaments
               </div>
-              <h2 className="sec-title">Upcoming Tournaments</h2>
-              <p className="sec-sub">Prepare your squad. Bihar's biggest Free Fire showdowns are coming soon.</p>
+              <h2 className="sec-title">Tournaments & Scrims</h2>
+              <p className="sec-sub">Our tournaments are live. Join the community to participate!</p>
             </div>
 
             <div className="fade-in" style={{ maxWidth: "800px", margin: "0 auto" }}>
               <div className="scheduler-card p-8 text-center flex flex-col items-center gap-6 relative overflow-hidden" style={{ borderStyle: "dashed" }}>
                 {/* Glowing neon overlay */}
                 <div className="absolute top-0 left-0 w-full h-[3px] bg-linear-to-r from-sky-400 via-indigo-500 to-pink-500"></div>
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-sky-500/10 text-sky-500 text-xs font-bold uppercase tracking-wider mb-2">
-                  <span className="w-2 h-2 rounded-full bg-sky-500 animate-pulse"></span>
-                  Coming Soon
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 text-emerald-500 text-xs font-bold uppercase tracking-wider mb-2">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                  Live Now
                 </div>
-                <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Thilak Store Cup: Bihar Championship</h3>
+                <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Thilak Paid Scrims</h3>
                 <p className="text-gray-500 max-w-[580px] text-sm md:text-base leading-relaxed">
-                  We are launching a professional, community-wide Free Fire tournament. Form your squads, practice in custom lobbies, and get ready to battle for massive cash prizes with live-streamed matches and offline finals in Patna.
+                  We post Thilak paid scrims. Join to make your own name in our Thilak community. Here is the link. Join now.
                 </p>
-                <div className="grid grid-cols-3 gap-6 md:gap-12 w-full max-w-[500px] py-4 border-y border-black/5 my-2">
-                  <div className="text-center">
-                    <span className="block text-xl md:text-2xl font-extrabold">TBA</span>
-                    <span className="text-xs text-gray-400 font-bold uppercase tracking-wider">Prize Pool</span>
-                  </div>
-                  <div className="text-center">
-                    <span className="block text-xl md:text-2xl font-extrabold">Patna</span>
-                    <span className="text-xs text-gray-400 font-bold uppercase tracking-wider">Offline Finals</span>
-                  </div>
-                  <div className="text-center">
-                    <span className="block text-xl md:text-2xl font-extrabold">TBA</span>
-                    <span className="text-xs text-gray-400 font-bold uppercase tracking-wider">Entry Fee</span>
-                  </div>
-                </div>
-                {/* <a
-                  href={getWhatsAppLink("Hi Thilak Store, notify me when the Bihar Free Fire Cup registrations open.")}
+                <a
+                  href="https://whatsapp.com/channel/0029VbC7F4j4dTnEvTrn8c42/1126"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-main px-8 mt-2"
                 >
-                  Get Notified on WhatsApp
-                </a> */}
+                  Join WhatsApp Channel
+                </a>
               </div>
             </div>
           </div>

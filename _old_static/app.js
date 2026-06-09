@@ -280,7 +280,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const btn = e.target.closest('.buy-now-btn') || e.target.closest('.open-wa-btn') || e.target.closest('#buyWA');
         if (btn) {
             e.preventDefault();
-            window.location.href = 'https://whatsapp.com/channel/0029Vb7mj918qIzzuWZLDc3T';
+            window.location.href = 'https://whatsapp.com/channel/0029VbC7F4j4dTnEvTrn8c42/1126';
         }
     });
 });

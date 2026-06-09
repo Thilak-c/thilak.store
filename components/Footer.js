@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="footer-links">
            
             <a
-              href="https://whatsapp.com/channel/0029Vb7mj918qIzzuWZLDc3T"
+              href="https://whatsapp.com/channel/0029VbC7F4j4dTnEvTrn8c42/1126"
               target="_blank"
               rel="noopener noreferrer"
             >
