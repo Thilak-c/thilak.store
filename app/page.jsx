@@ -642,16 +642,16 @@ export default function Home() {
           </div>
         </section>
 
-        {/* EVENTS SECTION */}
+        {/* EVENTS / PROOF SECTION */}
         <section className="sec" id="events">
           <div className="wrap">
             <div className="sec-head fade-in">
               <div className="sec-label">
                 <span className="label-line"></span>
-                Events & Tournaments
+                Proof & Reviews
               </div>
-              <h2 className="sec-title">Tournaments & Scrims</h2>
-              <p className="sec-sub">Our tournaments are live. Join the community to participate!</p>
+              <h2 className="sec-title">Selling Proof Channel</h2>
+              <p className="sec-sub">Check our verified deal proofs and customer feedback live on WhatsApp!</p>
             </div>
 
             <div className="fade-in" style={{ maxWidth: "800px", margin: "0 auto" }}>
@@ -660,19 +660,19 @@ export default function Home() {
                 <div className="absolute top-0 left-0 w-full h-[3px] bg-linear-to-r from-sky-400 via-indigo-500 to-pink-500"></div>
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 text-emerald-500 text-xs font-bold uppercase tracking-wider mb-2">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                  Live Now
+                  Live Channel
                 </div>
-                <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">ThilakXDeals Paid Scrims</h3>
+                <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">THILAK STORE SELLING PROOF</h3>
                 <p className="text-gray-500 max-w-[580px] text-sm md:text-base leading-relaxed">
-                  We post ThilakXDeals paid scrims. Join to make your own name in our ThilakXDeals community. Here is the link. Join now.
+                  Follow the THILAK STORE SELLING PROOF channel on WhatsApp for verified deal proofs, real customer receipts, and instant updates.
                 </p>
                 <a
-                  href="https://whatsapp.com/channel/0029VbC7F4j4dTnEvTrn8c42/1126"
+                  href="https://whatsapp.com/channel/0029Vb7USp15vKAExykk0S3g"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-main px-8 mt-2"
                 >
-                  Join WhatsApp Channel
+                  Join Selling Proof Channel
                 </a>
               </div>
             </div>
