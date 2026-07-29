@@ -8,15 +8,15 @@ export async function generateMetadata({ params }) {
   const product = products.find((p) => p.id === id);
   if (!product) {
     return {
-      title: "Product Not Found - Thilak Store",
+      title: "Product Not Found - ThilakXDeals",
     };
   }
   return {
-    title: `Buy ${product.title} - Thilak Store`,
-    description: `Price: ₹${product.price.toLocaleString()} | Level: ${product.level} | Rank: ${product.rank} | Skins: ${product.skins}. Click to view on Thilak Store.`,
+    title: `Buy ${product.title} - ThilakXDeals`,
+    description: `Price: ₹${product.price.toLocaleString()} | Level: ${product.level} | Rank: ${product.rank} | Skins: ${product.skins}. Click to view on ThilakXDeals.`,
     openGraph: {
       title: `Order placed - ${product.title}`,
-      description: `Price: ₹${product.price.toLocaleString()} | Level: ${product.level} | Rank: ${product.rank} | Skins: ${product.skins}. Click to view on Thilak Store.`,
+      description: `Price: ₹${product.price.toLocaleString()} | Level: ${product.level} | Rank: ${product.rank} | Skins: ${product.skins}. Click to view on ThilakXDeals.`,
       images: [
         {
           url: product.image,
@@ -48,7 +48,7 @@ export default async function ProductPreviewPage({ params }) {
     );
   }
 
-  const waMsg = `Order placed - ${product.title}\nPrice: ₹${product.price.toLocaleString()}\nLevel: ${product.level}\nRank: ${product.rank}\nSkins: ${product.skins}\n\nvia thilak.store`;
+  const waMsg = `Order placed - ${product.title}\nPrice: ₹${product.price.toLocaleString()}\nLevel: ${product.level}\nRank: ${product.rank}\nSkins: ${product.skins}\n\nvia thilakxdeals`;
 
   return (
     <main className="preview-container">

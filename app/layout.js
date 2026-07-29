@@ -15,15 +15,15 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "thilak.store — Bihar's #1 Trusted Free Fire Marketplace",
-  description: "thilak.store — Bihar's #1 trusted Free Fire ID marketplace. Buy and sell gaming accounts with 100% verified escrow. Offline meetups in Patna.",
-  keywords: "Free Fire ID, buy Free Fire account, sell Free Fire ID, Bihar, Patna, thilak store",
-  authors: [{ name: "thilak.store" }],
+  title: "thilakxdeals — Bihar's #1 Trusted Free Fire Marketplace",
+  description: "thilakxdeals — Bihar's #1 trusted Free Fire ID marketplace. Buy and sell gaming accounts with 100% verified escrow. Offline meetups in Patna.",
+  keywords: "Free Fire ID, buy Free Fire account, sell Free Fire ID, Bihar, Patna, thilakxdeals",
+  authors: [{ name: "thilakxdeals" }],
   openGraph: {
-    title: "thilak.store — Premium Gaming Marketplace",
+    title: "thilakxdeals — Premium Gaming Marketplace",
     description: "Bihar's #1 trusted Free Fire ID marketplace. Buy and sell with 100% escrow protection.",
     type: "website",
-    url: "https://thilak.store",
+    url: "https://thilakxdeals.com",
   },
 };
 

@@ -24,7 +24,7 @@ export default function CustomSearchModal({ isOpen, onClose, showToast }) {
       msg += `📍 ${location}\n`;
     }
     msg += requirements.trim() ? `🔫 ${requirements.trim()}\n` : `🔫 Any good account\n`;
-    msg += `\nvia thilak.store`;
+    msg += `\nvia thilakxdeals`;
 
     if (navigator.clipboard) {
       navigator.clipboard.writeText(msg)

@@ -93,25 +93,20 @@ const createInstagramEmbed = (postId) => `
         </div>
       </a>
       <p style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
-        <a href="https://www.instagram.com/p/${postId}/?utm_source=ig_embed&amp;utm_campaign=loading" style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Randhir Kumar (@thilak.store)</a>
+        <a href="https://www.instagram.com/p/${postId}/?utm_source=ig_embed&amp;utm_campaign=loading" style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Randhir Kumar (@thilakxdeals)</a>
       </p>
     </div>
   </blockquote>
 `;
 
 const INSTAGRAM_POST_IDS = [
-  "DZHxkwgkl6O",
-  "DZEqVwTkrR_",
-  "DY4NP5CEnML",
-  "DY1RPG0ElUo",
-  "DZHWRCaEies",
-  "DZEo5DWkiaI",
-  "DZDKX6KEoiM",
-  "DZA5ucFEicb",
-  "DZAGuJ4kilm",
-  "DY_sTTGkljf",
-  "DY9GxrcEu-k",
-  "DY6qRBZEjBT"
+  "DbOb3CHE2tZ",
+  "DbNp5n_k6oH",
+  "DbKUGSqE6Hp",
+  "Da8M5XRkyUi",
+  "Da5ulIck6mw",
+  "DavT8WhE3tb",
+  "Dat45G3Ex2j",
 ];
 
 const INSTAGRAM_EMBEDS = INSTAGRAM_POST_IDS.map(createInstagramEmbed);
@@ -225,7 +220,7 @@ export default function Home() {
       name: "Rahul Kumar",
       loc: "Boring Road, Patna",
       badge: "Cobra MP40 Owner",
-      text: "Was extremely scared of getting scammed since my account had Cobra MP40 Max. The escrow agent from thilak.store locked credentials securely and transferred cash in 15 mins. Highly recommended!",
+      text: "Was extremely scared of getting scammed since my account had Cobra MP40 Max. The escrow agent from thilakxdeals locked credentials securely and transferred cash in 15 mins. Highly recommended!",
       stars: 5,
       item: "Cobra MP40 Max"
     },
@@ -233,7 +228,7 @@ export default function Home() {
       name: "Aman Sinha",
       loc: "Muzaffarpur, Bihar",
       badge: "Sakura S1 Buyer",
-      text: "Sold my Season 1 Sakura account through thilak.store. The appraisal process was completely fair and fast. Met the representative offline near Boring Road Crossing for the cash deal.",
+      text: "Sold my Season 1 Sakura account through thilakxdeals. The appraisal process was completely fair and fast. Met the representative offline near Boring Road Crossing for the cash deal.",
       stars: 5,
       item: "OG Sakura Bundle"
     },
@@ -249,7 +244,7 @@ export default function Home() {
 
   const faqs = [
     {
-      q: "How does the thilak.store escrow protection work?",
+      q: "How does the thilakxdeals escrow protection work?",
       a: "Once buyer and seller agree on a deal, the buyer pays the escrow deposit. We secure the account credentials, verify all items (Evo skins, passes), and link the buyer's security phone number and email. Payment is released to the seller only after handover is completed."
     },
     {
@@ -316,7 +311,7 @@ export default function Home() {
               <div className="hero-logo-showcase">
                 <img
                   src="/assets/logo.jpeg"
-                  alt="thilak.store logo large"
+                  alt="thilakxdeals logo large"
                   className="hero-logo-img"
                 />
               </div>
@@ -553,7 +548,7 @@ export default function Home() {
                   </ul>
                 </div>
                 <a
-                  href={getWhatsAppLink("Hi Thilak Store, I want to schedule a face-to-face deal in Patna.")}
+                  href={getWhatsAppLink("Hi ThilakXDeals, I want to schedule a face-to-face deal in Patna.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-main text-center justify-center w-full"
@@ -573,7 +568,7 @@ export default function Home() {
                 <span className="label-line"></span>
                 Community Hub
               </div>
-              <h2 className="sec-title">Join Thilak Store Networks</h2>
+              <h2 className="sec-title">Join ThilakXDeals Networks</h2>
               <p className="sec-sub">Get direct access to our agents, exclusive account catalogs, and community activities.</p>
             </div>
 
@@ -610,7 +605,7 @@ export default function Home() {
                 </div>
                 <h3>WhatsApp channel</h3>
                 <p>Join Bihar's top gaming feed. We post daily account drops, budget deals, and event announcements.</p>
-                <div className="connect-metric">700+ Active Members</div>
+                <div className="connect-metric">1.1k+ Active Members</div>
                 <a 
                   href="https://whatsapp.com/channel/0029Vb7mj918qIzzuWZLDc3T"
                   target="_blank" 
@@ -634,7 +629,7 @@ export default function Home() {
                 <p>Follow us on Instagram for gaming clips, customer success stories, and weekly character code giveaways.</p>
                 <div className="connect-metric">12 Deal Proofs Loaded</div>
                 <a 
-                  href="https://instagram.com/thilak.store"
+                  href="https://instagram.com/thilakxdeals"
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn-outline-dark mt-4 text-center justify-center btn-ig"
@@ -667,9 +662,9 @@ export default function Home() {
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
                   Live Now
                 </div>
-                <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Thilak Paid Scrims</h3>
+                <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">ThilakXDeals Paid Scrims</h3>
                 <p className="text-gray-500 max-w-[580px] text-sm md:text-base leading-relaxed">
-                  We post Thilak paid scrims. Join to make your own name in our Thilak community. Here is the link. Join now.
+                  We post ThilakXDeals paid scrims. Join to make your own name in our ThilakXDeals community. Here is the link. Join now.
                 </p>
                 <a
                   href="https://whatsapp.com/channel/0029VbC7F4j4dTnEvTrn8c42/1126"
@@ -845,7 +840,7 @@ export default function Home() {
                   </div>
                 </div>
                 <a
-                  href={getWhatsAppLink("Hi Thilak Store, I am looking to buy a verified Free Fire ID.")}
+                  href={getWhatsAppLink("Hi ThilakXDeals, I am looking to buy a verified Free Fire ID.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-main btn-chan text-center justify-center w-full"
@@ -878,7 +873,7 @@ export default function Home() {
                   </div>
                 </div>
                 <a
-                  href={getWhatsAppLink("Hi Thilak Store, I want to sell my Free Fire ID and get an appraisal.")}
+                  href={getWhatsAppLink("Hi ThilakXDeals, I want to sell my Free Fire ID and get an appraisal.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-main btn-ig text-center justify-center w-full"

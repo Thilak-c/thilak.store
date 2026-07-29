@@ -60,14 +60,14 @@ export default function Header({ onOpenSearch }) {
         <Link href="/" className="nav-brand">
           <img
             src="/assets/logo.jpeg"
-            alt="thilak.store logo"
+            alt="thilakxdeals logo"
             className="nav-logo-img"
           />
-          <span className="nav-brand-name">Thilak.store</span>
+          <span className="nav-brand-name">ThilakXDeals</span>
         </Link>
         <div className="nav-end">
           <a
-            href="https://instagram.com/thilak.store"
+            href="https://instagram.com/thilakxdeals"
             target="_blank"
             rel="noopener noreferrer"
            
